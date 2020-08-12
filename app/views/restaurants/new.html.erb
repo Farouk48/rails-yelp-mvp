@@ -1,1 +1,11 @@
-new.html.erb
+
+<div class="container">
+  <div class="column">
+    <div class="row">
+      <h1>New Restaurant</h1>
+        <%= render 'form', restaurant: @restaurant %>
+        <%= link_to 'Back', restaurants_path, class: "btn btn-primary"%>
+    </div>
+  </div>
+</div>
+
